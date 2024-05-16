@@ -18,7 +18,7 @@
 		3BBD55C92BF64BD500037911 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BBD55CB2BF64BDD00037911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBD55CE2BF64BDD00037911 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3BBD55DF2BF650BC00037911 /* matchmacthApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = matchmacthApp.swift; path = App/matchmacthApp.swift; sourceTree = "<group>"; };
+		3BBD55DF2BF650BC00037911 /* matchmacthApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = matchmacthApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,11 +32,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BBBA8AF2BF652A9004C9568 /* New Group */ = {
+		3BBBA8B02BF656BC004C9568 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3BBD55DF2BF650BC00037911 /* matchmacthApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3BBBA8B12BF656DC004C9568 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3BBBA8B22BF656F6004C9568 /* Cards */,
+				3BBBA8B42BF65714004C9568 /* Messaging */,
+				3BBBA8B32BF6570A004C9568 /* Profile */,
+				3BBBA8B52BF65744004C9568 /* Search */,
+				3BBBA8B62BF65762004C9568 /* Tabbar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3BBBA8B22BF656F6004C9568 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		3BBBA8B32BF6570A004C9568 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3BBBA8B42BF65714004C9568 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Messaging;
+			path = ../Messaging;
+			sourceTree = "<group>";
+		};
+		3BBBA8B52BF65744004C9568 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3BBBA8B62BF65762004C9568 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		3BBBA8B72BF6577C004C9568 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BBBA8B82BF65797004C9568 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3BBBA8B92BF657A5004C9568 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		3BBD55BB2BF64BD500037911 = {
@@ -58,12 +128,11 @@
 		3BBD55C62BF64BD500037911 /* matchmacth */ = {
 			isa = PBXGroup;
 			children = (
-				3BBBA8AF2BF652A9004C9568 /* New Group */,
-				3BBD55E52BF6518300037911 /* New Group4 */,
-				3BBD55E42BF6518000037911 /* New Group3 */,
-				3BBD55E32BF6517D00037911 /* New Group2 */,
-				3BBD55E22BF6517A00037911 /* New Group1 */,
-				3BBD55DF2BF650BC00037911 /* matchmacthApp.swift */,
+				3BBBA8B02BF656BC004C9568 /* App */,
+				3BBBA8B12BF656DC004C9568 /* Core */,
+				3BBBA8B72BF6577C004C9568 /* Extensions */,
+				3BBBA8B82BF65797004C9568 /* Shared */,
+				3BBBA8B92BF657A5004C9568 /* Utils */,
 				3BBD55C92BF64BD500037911 /* ContentView.swift */,
 				3BBD55CB2BF64BDD00037911 /* Assets.xcassets */,
 				3BBD55CD2BF64BDD00037911 /* Preview Content */,
@@ -77,34 +146,6 @@
 				3BBD55CE2BF64BDD00037911 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3BBD55E22BF6517A00037911 /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group1";
-			sourceTree = "<group>";
-		};
-		3BBD55E32BF6517D00037911 /* New Group2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group2";
-			sourceTree = "<group>";
-		};
-		3BBD55E42BF6518000037911 /* New Group3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group3";
-			sourceTree = "<group>";
-		};
-		3BBD55E52BF6518300037911 /* New Group4 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
